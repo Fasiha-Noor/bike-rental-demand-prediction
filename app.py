@@ -84,7 +84,7 @@ demo = gr.Interface(
         gr.Dropdown(
             choices=[1, 2, 3, 4],
             value=2,
-            label="Season (1=Spring, 2=Summer, 3=Fall, 4=Winter)",
+            label="Season (1=Winter, 2=Spring, 3=Summer, 4=Fall)",
         ),
         gr.Dropdown(
             choices=[0, 1],
